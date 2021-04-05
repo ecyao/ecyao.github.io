@@ -8,4 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-Elaine Yao | PhD student Princeton University Department of Politics | Website under construction!
+Elaine Yao
+
+PhD student Princeton University Department of Politics 
+
+Website under construction!
