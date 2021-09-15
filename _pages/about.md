@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am a Ph.D candidate in Politics at Princeton University. You are welcome to browse, but note that this website under (de/con)struction.
+Hello! I am a Ph.D candidate in Politics at Princeton University. You are welcome to browse, but note that this website is under (de/con)struction.
