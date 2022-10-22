@@ -7,7 +7,7 @@ header:
   og_image: "cloisters_tree.jpg"
 ---
 ## Works in progress
-(Abstract/drafts upon request). 
+*(Abstract/drafts upon request).* 
 
 Brook no compromise: How to negotiate a united front
 
