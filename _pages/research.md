@@ -6,8 +6,11 @@ author_profile: true
 header:
   og_image: "cloisters_tree.jpg"
 ---
-## Working Papers
+## Works in progress
+(Abstract/drafts upon request). 
+
 Brook no compromise: How to negotiate a united front
+Apophantic Empiricism: The Current Epistemology of the Social Sciences
 
 ## Peer-Reviewed Publications 
 
