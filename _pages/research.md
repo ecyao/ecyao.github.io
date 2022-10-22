@@ -9,7 +9,7 @@ header:
 ## Works in progress
 *(Abstract/drafts upon request).* 
 
-- "Brook no compromise: How to negotiate a united front" *Scheduled SPSA 2023* 
+- "Brook no compromise: How to negotiate a united front" *(Scheduled SPSA 2023)* 
 
 ## Peer-Reviewed Publications 
 
