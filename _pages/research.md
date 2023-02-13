@@ -10,7 +10,7 @@ header:
 "Brook no compromise: How to negotiate a united front" *(MPSA, SPSA 2023. Draft on request.)* 
 <details><summary>Abstract</summary>
 <p>
-Two groups prefer different versions of a policy, but must commit to the same version for it to pass. Groups can only commit once, and do so permanently. Neither group knows  other's willingness to compromise -- whether it would rather fail to reach an agreement than accept the other group's preferred version. I show that groups that are unwilling to compromise commit as soon as possible, while those that are willing delay commitment. I characterize the optimal delay that solves the trade-off between committing quickly to force an opponent's hand and waiting to gain information about the opponent, and show that groups at an informational disadvantage act more conservatively. Finally, I analyze the likelihood of avoidable negotiation failure, i.e. when groups fail implement a Pareto improvement although one was possible. 
+Two groups prefer different versions of a policy, but must commit to the same version for it to pass. Commitments are permanent and irrevocable. Neither group knows the other's willingness to compromise, i.e. whether it would rather fail to reach an agreement than accept the other group's preferred version. I show that groups that are unwilling to compromise commit as soon as possible, while those that are willing to compromise delay commitment. The amount of delay chosen balances between the competing incentives to commit quickly and force an opponent's hand versus waiting to gain information about the opponent. I use delay to predict the probability of miscoordination that occurs when players fail to implement a welfare-improving outcome although one is feasible. 
   </p>
 </details>
 
