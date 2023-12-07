@@ -7,10 +7,10 @@ header:
   og_image: "headshot.jpg"
 ---
 ## Working Papers
-"Brook no compromise: How to negotiate a united front" *(MPSA, SPSA 2023. Draft on request.)* 
+"Brook no compromise: How to negotiate a united front" 
 <details><summary>Abstract</summary>
 <p>
-Two groups prefer different versions of a policy, but must commit to the same version for it to pass. Commitments are permanent and irrevocable. Neither group knows the other's willingness to compromise, i.e. whether it would rather fail to reach an agreement than accept the other group's preferred version. I show that groups that are unwilling to compromise commit as soon as possible, while those that are willing to compromise delay commitment. The amount of delay chosen balances between the competing incentives to commit quickly and force an opponent's hand versus waiting to gain information about the opponent. I use delay to predict the probability of miscoordination that occurs when players fail to implement a welfare-improving outcome although one is feasible. 
+Factional conflict is pervasive across diverse settings, including coalition governments, political parties, and authoritarian elites. In attempting to resolve such conflicts, why do some factions prevail, while others fall into line? And what explains cases where factions sometimes fail to unite, prolonging stalemates and even precipitating collective downfall? I analyze a model where two groups prefer different policies, but must commit to the same one to overturn a mutually unfavorable status quo. Crucially, groups do not know each other's willingness to compromise,  i.e. whether they would rather stay with the status quo than accept their less-preferred policy. Groups that are unwilling to compromise in this sense commit to policies quickly, which ones who are willing to compromise face a trade-off between delaying and gaining information about their counterpart and acting quickly to try and force their preferred policy through. Delay is indicative of willingness to compromise, but its costliness opens the door to avoidable miscoordination, in which impulsive commitment results in the status quo, although another policy which would have been better for both players was feasible.  
   </p>
 </details>
 
