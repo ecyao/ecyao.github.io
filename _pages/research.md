@@ -4,7 +4,7 @@ title: "Research"
 permalink: /research/
 author_profile: true
 header:
-  og_image: "cloisters_tree.jpg"
+  og_image: "headshot.jpg"
 ---
 ## Working Papers
 "Brook no compromise: How to negotiate a united front" *(MPSA, SPSA 2023. Draft on request.)* 
