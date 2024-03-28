@@ -7,7 +7,8 @@ header:
   og_image: "headshot.jpg"
 ---
 ## Working Papers
-"Brook no compromise: How to negotiate a united front" 
+"Brook no compromise: How to negotiate a united front"   [(Draft)](https://ecyao.github.io/files/pdf/brook_no_compromise.pdf).
+
 <details><summary>Abstract</summary>
 <p>
 Resolving factional conflict is crucial to successful policymaking: coalition governments, political parties, and authoritarian elites must all overcome internal disagreements in order to survive. In the course of resolution, why do some factions prevail, while others fall into line? What explains cases where neither faction gets its way? I analyze a model where two groups prefer different policies, but must commit to the same one to overturn a mutually unfavorable status quo. Crucially, neither group knows for certain whether their counterpart would prefer the status quo than accept the counterpart's less-preferred policy. While groups that are unwilling to compromise commit to policies quickly, those who are face a trade-off between delay, which increases the information they gather about their counterpart, and preemption, which forces a decision between their favorite policy and the status quo. Delay, however, does not guarantee successful coordination, as its costliness opens the door to avoidable miscoordination. I analyze how the incidence avoidable miscoordination varies with model primitives, and show that when overall welfare increases when groups' willingness to compromise are more likely to be publicly leaked. 
