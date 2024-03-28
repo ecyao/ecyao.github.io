@@ -7,7 +7,7 @@ header:
   og_image: "headshot.jpg"
 ---
 ## Working Papers
-"Brook no compromise: How to negotiate a united front"   [(Draft)](https://ecyao.github.io/files/pdf/brook_no_compromise.pdf).
+"Brook no compromise: How to negotiate a united front"   [(Draft)](https://ecyao.github.io/files/pdf/brook_no_compromise.pdf)
 
 <details><summary>Abstract</summary>
 <p>
