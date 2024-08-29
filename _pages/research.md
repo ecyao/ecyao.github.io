@@ -15,6 +15,15 @@ header:
   </p>
 </details>
 
+## Works in Progress 
+"Organizational Structure and PRotest Tactics" 
+
+<details><summary>Abstract</summary>
+<p>
+How do protest movements collectively choose between peaceful or violent tactics over time? I study a dynamic regime change game where individuals choose to turn out given a tactical choice made by the previous round of protesters. I assume that the power of peaceful tactics is more dependent on mobilization that violent tactics. Both past protest experiences and future prospects matter: More failures, especially of larger protests, cause both active participants and bystanders to become pessimistic about their ability to overthrow the regime. While repeated failures make violence more attractive by guaranteeing a certain level of contention at any moment, repeated failures can also lead movements to gamble on peace in hopes that they will, by chance, secure high turnout. However, future prospects also affect tactical choice: the asymmetry of tactics' sensitivity to turnout has differing consequences for future protests, should today's effort fail. Finally, the game offers a solution to the problem of equilibrium multiplicity in repeated global games, as individuals' per-period participation decisions are cutoff in idiosyncratically drawn participation costs, while beliefs about regime strength are held in common.  
+  </p>
+</details>
+
 ## Peer-Reviewed Publications 
 
 Mattingly, Daniel C., and Elaine Yao. "How soft propaganda persuades." Comparative Political Studies (2022): 55(9), 1569–1594  https://doi.org/10.1177/00104140211047403 
