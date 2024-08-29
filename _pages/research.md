@@ -16,7 +16,7 @@ header:
 </details>
 
 ## Works in Progress 
-"Organizational Structure and PRotest Tactics" 
+"Organizational Structure and Protest Tactics" 
 
 <details><summary>Abstract</summary>
 <p>
