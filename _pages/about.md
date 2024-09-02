@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a Ph.D candidate in Politics at Princeton University, where I am affiliated with the Research Program in Political Economy and the Program for Quantitative and Analytical Political Science. I am grateful to be advised by Matias Iaryczower, Germán Gieczewski, and Carles Boix. **I am on the 2024-25 academic job market. **
+Welcome! I am a Ph.D candidate in Politics at Princeton University, where I am affiliated with the Research Program in Political Economy and the Program for Quantitative and Analytical Political Science. I am grateful to be advised by Matias Iaryczower, Germán Gieczewski, and Carles Boix. **I am on the 2024-25 academic job market.**
 
 My dissertation research uses formal theory and quantitative methods to study collective action in weakly institutionalized settings. Additionally, my work on Chinese politics has been published in Comparative Political Studies and Chinese Sociological Review. 
 
