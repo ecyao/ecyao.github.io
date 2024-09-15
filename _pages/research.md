@@ -16,7 +16,7 @@ header:
 </details>
 
 ## Works in Progress 
-"Organizational Structure and Protest Tactics" 
+"Organizational Structure and Protest Tactics" [(Latest draft.)](https://ecyao.github.io/files/pdf/tactics.pdf) 
 
 <details><summary>Abstract</summary>
 <p>
