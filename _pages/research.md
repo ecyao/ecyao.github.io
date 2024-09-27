@@ -26,7 +26,7 @@ How do protest movements collectively choose between peaceful or violent tactics
 
 ## Peer-Reviewed Publications 
 
-Mattingly, Daniel C., and Elaine Yao. "How soft propaganda persuades." Comparative Political Studies (2022): 55(9), 1569–1594  https://doi.org/10.1177/00104140211047403 [(Publisher's version.)](https://journals.sagepub.com/doi/10.1177/00104140211047403) 
+Mattingly, Daniel C., and Elaine Yao. "How soft propaganda persuades." Comparative Political Studies (2022): 55(9), 1569–1594  [(Publisher's version.)](https://journals.sagepub.com/doi/10.1177/00104140211047403) 
 
 <details><summary>Abstract</summary>
 <p>
@@ -35,7 +35,8 @@ An influential body of scholarship argues that authoritarian regimes design "har
 </details>
 
 
-Wei, Lai, Elaine Yao, and Han Zhang. "Authoritarian responsiveness and political attitudes during COVID-19: evidence from Weibo and a survey experiment." Chinese Sociological Review (2021): 1-37. https://doi.org/10.1080/21620555.2021.1967737
+Wei, Lai, Elaine Yao, and Han Zhang. "Authoritarian responsiveness and political attitudes during COVID-19: evidence from Weibo and a survey experiment." Chinese Sociological Review (2021): 1-37. [(Publisher's version.)](https://www.tandfonline.com/doi/full/10.1080/21620555.2021.1967737) 
+  
 <details><summary>Abstract</summary>
 <p>
 How do citizens react to authoritarian responsiveness? To investigate this question, we study how Chinese citizens reacted to a novel government initiative which enabled social media users to publicly post requests for COVID-related medical assistance. To understand the effect of this initiative on public perceptions of government effectiveness, we employ a two-part empirical strategy. First, we conduct a survey experiment in which we directly expose subjects to real help-seeking posts, in which we find that viewing posts did not improve subjects' ratings of government effectiveness, and in some cases worsened them. Second, we analyze over 10,000 real-world Weibo posts to understand the political orientation of the discourse around help-seekers. We find that negative and politically critical posts far outweighed positive and laudatory posts, complementing our survey experiment results. To contextualize our results, we develop a theoretic framework to understand the effects of different types of responsiveness on citizens' political attitudes. We suggest that citizens' negative reactions in this case were primarily influenced by public demands for help, which illuminated existing problems and failures of governance. 
