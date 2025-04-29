@@ -6,14 +6,7 @@ author_profile: true
 header:
   og_image: "headshot.jpg"
 ---
-## Working Papers
-"Brook no compromise: How to negotiate a united front"   [(Latest draft.)](https://ecyao.github.io/files/pdf/brook_no_compromise.pdf) Accepted at _American Journal of Political Science._
 
-<details><summary>Abstract</summary>
-<p>
- Negotiating factional conflict is crucial to successful policymaking: coalition governments, political parties, and authoritarian elites must all overcome internal disagreements in order to move forward. Actors in such conflicts sometimes employ hardball tactics to strategically rule out outcomes they dislike. Using a dynamic bargaining model, I explore how the threat and usage of these tactics impact coordination between actors with conflicting interests. In the model, two players who prefer different reforms must jointly agree on only one in order to overturn a mutually unfavorable status quo. Neither knows for certain whether the opponent prefers the status quo over their less-preferred outcome. Players willing to compromise on their opponent's preference rationally delay agreement, balancing the incentive to preempt the opponent against the benefit of waiting to gather better information. Delay is prolonged when actors cannot easily glean one another's willingness to compromise. One such factor is the frequency with which private willingness to compromise is publicly revealed. Thus, higher-leak environments are beneficial to welfare, as the additional delay incentivized by leaks deters mistakes of preemption.
-  </p>
-</details>
 
 ## Works in Progress 
 "Protest tactics and organizational structure" [(Latest draft.)](https://ecyao.github.io/files/pdf/tactics.pdf) 
@@ -25,6 +18,15 @@ How do protest movements collectively choose between peaceful or violent tactics
 </details>
 
 ## Peer-Reviewed Publications 
+
+"Brook no compromise: How to negotiate a united front" Forthcoming, _American Journal of Political Science._  [(Latest draft.)](https://ecyao.github.io/files/pdf/brook_no_compromise.pdf)
+[(Publisher's version.)](https://onlinelibrary.wiley.com/doi/10.1111/ajps.12986) 
+
+<details><summary>Abstract</summary>
+<p>
+ Negotiating factional conflict is crucial to successful policymaking: coalition governments, political parties, and authoritarian elites must all overcome internal disagreements in order to move forward. Actors in such conflicts sometimes employ hardball tactics to strategically rule out outcomes they dislike. Using a dynamic bargaining model, I explore how the threat and usage of these tactics impact coordination between actors with conflicting interests. In the model, two players who prefer different reforms must jointly agree on only one in order to overturn a mutually unfavorable status quo. Neither knows for certain whether the opponent prefers the status quo over their less-preferred outcome. Players willing to compromise on their opponent's preference rationally delay agreement, balancing the incentive to preempt the opponent against the benefit of waiting to gather better information. Delay is prolonged when actors cannot easily glean one another's willingness to compromise. One such factor is the frequency with which private willingness to compromise is publicly revealed. Thus, higher-leak environments are beneficial to welfare, as the additional delay incentivized by leaks deters mistakes of preemption.
+  </p>
+</details>
 
 [Mattingly, Daniel](https://daniel-mattingly.com/) and Elaine Yao. "How soft propaganda persuades." Comparative Political Studies (2022): 55(9), 1569–1594  [(Publisher's version.)](https://journals.sagepub.com/doi/10.1177/00104140211047403) 
 
