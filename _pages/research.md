@@ -9,7 +9,7 @@ header:
 
 
 ## Works in Progress 
-"Protest tactics and organizational structure" [(Latest draft)](https://ecyao.github.io/files/pdf/tactics.pdf) 
+"**Protest tactics and organizational structure**" [(Latest draft)](https://ecyao.github.io/files/pdf/tactics.pdf) 
 
 <details><summary>Abstract</summary>
 <p>
@@ -19,7 +19,7 @@ How do protest movements collectively choose between peaceful or violent tactics
 
 ## Peer-Reviewed Publications 
 
-"Brook no compromise: How to negotiate a united front" Forthcoming, _American Journal of Political Science._  [(Latest draft)](https://ecyao.github.io/files/pdf/brook_no_compromise.pdf)
+"**Brook no compromise: How to negotiate a united front**" Forthcoming, _American Journal of Political Science._  [(Latest draft)](https://ecyao.github.io/files/pdf/brook_no_compromise.pdf)
 [(Publisher's version)](https://onlinelibrary.wiley.com/doi/10.1111/ajps.12986) 
 
 <details><summary>Abstract</summary>
@@ -28,7 +28,7 @@ How do protest movements collectively choose between peaceful or violent tactics
   </p>
 </details>
 
-[Mattingly, Daniel](https://daniel-mattingly.com/) and Elaine Yao. "How soft propaganda persuades." Comparative Political Studies (2022): 55(9), 1569–1594  [(Publisher's version)](https://journals.sagepub.com/doi/10.1177/00104140211047403) 
+[Mattingly, Daniel](https://daniel-mattingly.com/) and Elaine Yao. "**How soft propaganda persuades**." _Comparative Political Studies_ (2022): 55(9), 1569–1594  [(Publisher's version)](https://journals.sagepub.com/doi/10.1177/00104140211047403) 
 
 <details><summary>Abstract</summary>
 <p>
@@ -37,7 +37,7 @@ An influential body of scholarship argues that authoritarian regimes design "har
 </details>
 
 
-[Wei, Lai](https://sites.google.com/princeton.edu/laiwei), Elaine Yao, and [Han Zhang](https://hanzhang.xyz/). "Authoritarian responsiveness and political attitudes during COVID-19: evidence from Weibo and a survey experiment." Chinese Sociological Review (2021): 1-37. [(Publisher's version)](https://www.tandfonline.com/doi/full/10.1080/21620555.2021.1967737) 
+[Wei, Lai](https://sites.google.com/princeton.edu/laiwei), Elaine Yao, and [Han Zhang](https://hanzhang.xyz/). "**Authoritarian responsiveness and political attitudes during COVID-19: evidence from Weibo and a survey experiment**." _Chinese Sociological Review_ (2021): 1-37. [(Publisher's version)](https://www.tandfonline.com/doi/full/10.1080/21620555.2021.1967737) 
   
 <details><summary>Abstract</summary>
 <p>
