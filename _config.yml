@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Elaine Yao"
 title_separator          : "-"
 name                     : &name "Elaine Yao"
-description              : &description "PhD in Politics"
+description              : &description "Assistant Professor of Political Science"
 url                      : https://ecyao.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ecyao/ecyao.github.io"
@@ -84,13 +84,13 @@ analytics:
 author:
   name             : "Elaine Yao"
   avatar           : "headshot.jpg"
-  bio              : "PhD student in Politics"
-  location         : "Princeton, NJ"
+  bio              : "Assistant Professor of Political Science"
+  location         : "Washington University in St. Louis"
   employer         :
   pubmed           :
   orcid            : 
-  googlescholar    : 
-  email            : "eyao@princeton.edu"
+  googlescholar    : "https://scholar.google.com/citations?user=s12dMtYAAAAJ&hl=en&authuser=2&oi=sra"
+  email            : "eyao@wustl.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
