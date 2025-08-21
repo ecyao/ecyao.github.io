@@ -19,6 +19,6 @@ This course is intended to cover through analytical discussion and illustrations
 
 ## Advising 
 
-* **For current WashU PhD students:** I am happy to speak with any of you about your research or PhD experience, irrespective of your subfield or year. Please e-mail me to set up a time or simply stop by Seigle 288. 
+* **For current WashU PhD students:** I am happy to speak with you about your research or PhD experience, irrespective of your subfield or year. Please e-mail me to set up a time or simply stop by Seigle 288. 
 * **Research assistants:** I am not recruiting research assistants at this time. 
-* **Prospective PhD students:** Unfortunately, I am not able to personally recruit new PhD students at this time. While I am happy to speak with you about relevant research, I typically do not meet with prospective applicants about their applications. Generally, it is not necessary to secure an advisor prior to your application to PhD programs. There is some helpful advice on PhD admissions in political science from Chris Blattman [here](https://chrisblattman.com/blog/2022/03/25/faqs-on-phd-applications/).   
+* **Prospective PhD students:** Unfortunately, I am not able to personally recruit new PhD students. While I am happy to speak with you about relevant research, I typically do not meet with prospective applicants about their applications. Generally, it is not necessary to secure an advisor prior to your application to PhD programs. There is some helpful advice on PhD admissions in political science from Chris Blattman [here](https://chrisblattman.com/blog/2022/03/25/faqs-on-phd-applications/).   
