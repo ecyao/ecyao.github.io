@@ -32,14 +32,14 @@ If I agree to write you a letter of recommendation, then I may ask you to send a
 
 **Pre-filling my information.** To ensure accuracy, please use the following details when pre-filling my contact information on your application forms if you are asked:
 
-First name: Elaine
-Last name: Yao
-Position: Assistant Professor
-Department: Department of Poitical Science
-Institution: Washington University in St. Louis
-Address: 1 Brookings Dr, St. Louis MO 63130
-Email: eyao (at) wustl.edu
-Phone: +1 314-935-5810 (dept telephone) 
+- First name: Elaine
+- Last name: Yao
+- Position: Assistant Professor
+- Department: Department of Poitical Science
+- Institution: Washington University in St. Louis
+- Address: 1 Brookings Dr, St. Louis MO 63130
+- Email: eyao (at) wustl.edu
+- Phone: +1 314-935-5810 (dept telephone) 
 
 ## LoRs for PhD applicants 
 
