@@ -31,7 +31,6 @@ If I agree to write you a letter of recommendation, then I may ask you to send a
 **Confidentiality.** My policy is to only write confidential letters, and this is to your direct advantage. Admissions committees give significantly more weight to letters that students have waived their right to see, as it ensures complete candor. If you are asked, please be sure to waive your right; it’s a small step that makes a big difference in how your letter is perceived and valued.
 
 **Pre-filling my information.** To ensure accuracy, please use the following details when pre-filling my contact information on your application forms if you are asked:
-
 - First name: Elaine
 - Last name: Yao
 - Position: Assistant Professor
@@ -44,7 +43,7 @@ If I agree to write you a letter of recommendation, then I may ask you to send a
 ## LoRs for PhD applicants 
 
 A special note for PhD applications: letters for doctoral programs are all about your research potential. For your letter to be compelling, it has to go beyond your grades and speak to your ability to become a great researcher. Hence, I can only write PhD application letters for students I’ve worked with in a research context. This usually means:
-- You produced a dissertation or major research project with me as an advisor.
+- You produced a thesis or major research project with me as an advisor.
 - You wrote an original research paper in a seminar I taught.
 - You have otherwise demonstrated research potential in another direct and meaningful way.
 - Please understand that if we haven’t worked together in one of the ways listed above, or if I feel I cannot endorse your work with the powerful enthusiasm a PhD application requires, I will have to decline your request. This is to protect your application from a generic letter, which can do more harm than good. My goal is to ensure you are supported by a recommender who can write about your research potential with the specific detail you deserve.
