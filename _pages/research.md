@@ -20,7 +20,7 @@ How do protest movements collectively choose between peaceful or violent tactics
 ## Peer-Reviewed Publications 
 
 "**Brook no compromise: How to negotiate a united front**." Forthcoming, _American Journal of Political Science._  [(Latest draft)](https://ecyao.github.io/files/pdf/brook_no_compromise.pdf)
-[(Publisher's version)](https://onlinelibrary.wiley.com/doi/10.1111/ajps.12986) [(Slides)](https://ecyao.github.io/files/pdf/bnc_slides.pdf) [(Nontechnical summary)](https://ajps.org/category/author-summaries-of-ajps-articles/page/2/) 
+[(Publisher's version)](https://onlinelibrary.wiley.com/doi/10.1111/ajps.12986) [(Slides)](https://ecyao.github.io/files/pdf/bnc_slides.pdf) [(Nontechnical summary)](https://ajps.org/2025/05/12/brook-no-compromise-how-to-negotiate-a-united-front/) 
 
 
 <details><summary>Abstract</summary>
