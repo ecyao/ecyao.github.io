@@ -9,7 +9,7 @@ header:
 
 
 ## Works in Progress 
-**Protest tactics and organizational structure** [(Latest draft, April 2026)](https://ecyao.github.io/files/pdf/tactics.pdf) 
+**Tactical choice in repeated protests** [(Latest draft, April 2026)](https://ecyao.github.io/files/pdf/tactics.pdf) 
 
 <details><summary>Abstract</summary>
 <p>
