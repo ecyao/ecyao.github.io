@@ -28,4 +28,7 @@ This course explores frontiers in comparative politics and political economy thr
 
 * **For current WashU students:** I am happy to speak with you about your research or student experience, irrespective of your subfield or year. Please e-mail me to set up a time, or simply stop by Seigle 288. 
 * **Research assistants:** I am not recruiting research assistants at this time. 
-* **Prospective PhD students:** Unfortunately, I am not able to personally recruit new PhD students. While I am happy to speak with you about relevant research, I typically do not meet with prospective applicants about their applications. Generally, it is not necessary to secure an advisor prior to your application to PhD programs in political science. There is some helpful advice on PhD admissions in political science from Chris Blattman [here](https://chrisblattman.com/blog/2022/03/25/faqs-on-phd-applications/).   
+* **Prospective PhD students:** Unfortunately, I am not able to personally recruit new PhD students. While I am happy to speak with you about relevant research, I typically do not meet with prospective applicants about their applications. Generally, it is not necessary to secure an advisor prior to your application to PhD programs in political science. There is some helpful advice on PhD admissions in political science from Chris Blattman [here](https://chrisblattman.com/blog/2022/03/25/faqs-on-phd-applications/).
+
+## Letters of Recommendation 
+See my guidelines [here](https://ecyao.github.io/lors/).
