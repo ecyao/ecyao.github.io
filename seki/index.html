@@ -56,7 +56,24 @@
     }
 
     .trip-report section > h2 {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 1rem;
       margin-bottom: 1.25rem;
+    }
+
+    .day-title {
+      min-width: 0;
+      text-wrap: balance;
+    }
+
+    .day-mileage {
+      flex: 0 0 auto;
+      margin-left: auto;
+      white-space: nowrap;
+      font: inherit;
+      color: inherit;
     }
 
     .trip-report blockquote {
@@ -178,8 +195,7 @@
       </section>
 
       <section id="day-0">
-        <h2>Day 0: Copper Creek</h2>
-        <p>4.3 miles</p>
+        <h2><span class="day-title">Day 0: Copper Creek</span><span class="day-mileage">(4.3 miles)</span></h2>
         <figure class="trip-media" id="Day 0 route">
           <img src="media/day0.png" alt="The day 0 route and elevation profile" loading="lazy">
         </figure>
@@ -249,8 +265,7 @@
       </section>
 
       <section id="day-1">
-        <h2>Day 1: Granite Pass</h2>
-        <p>8.75 miles</p>
+        <h2><span class="day-title">Day 1: Granite Pass</span><span class="day-mileage">(8.75 miles)</span></h2>
         <figure class="trip-media" id="Day 1 route">
           <img src="media/day1.png" alt="The day 1 route and elevation profile" loading="lazy">
         </figure>
@@ -316,8 +331,7 @@
       </section>
 
       <section id="day-2">
-        <h2>Day 2: “The Bitch”</h2>
-        <p>10.2 miles</p>
+        <h2><span class="day-title">Day 2: “The Bitch”</span><span class="day-mileage">(10.2 miles)</span></h2>
         <figure class="trip-media" id="Day 2 route">
           <img src="media/day2.png" alt="The day 2 route and elevation profile" loading="lazy">
         </figure>
@@ -380,8 +394,7 @@
       </section>
 
       <section id="day-3">
-        <h2>Day 3: The Devil’s Washbowl</h2>
-        <p>8.52 miles</p>
+        <h2><span class="day-title">Day 3: The Devil’s Washbowl</span><span class="day-mileage">(8.52 miles)</span></h2>
         <figure class="trip-media" id="Day 3 route">
           <img src="media/day3.png" alt="The day 3 route and elevation profile" loading="lazy">
         </figure>
@@ -457,8 +470,7 @@
       </section>
 
       <section id="day-4">
-        <h2>Day 4: The Golden Staircase and Mather Pass</h2>
-        <p>12.2 miles</p>
+        <h2><span class="day-title">Day 4: The Golden Staircase and Mather Pass</span><span class="day-mileage">(12.2 miles)</span></h2>
         <figure class="trip-media" id="Day 4 route">
           <img src="media/day4.png" alt="The day 4 route and elevation profile" loading="lazy">
         </figure>
@@ -532,8 +544,7 @@
 
       <section id="day-5">
         
-        <h2>Day 5: Pinchot Pass</h2>
-        <p>15 miles</p>
+        <h2><span class="day-title">Day 5: Pinchot Pass</span><span class="day-mileage">(15 miles)</span></h2>
         <figure class="trip-media" id="Day 5 route">
           <img src="media/day5.png" alt="The day 5 route and elevation profile" loading="lazy">
         </figure>
@@ -646,8 +657,7 @@
       </section>
 
       <section id="day-6">
-        <h2>Day 6: Rae Lakes and Glen Pass</h2>
-        <p>12.94 miles</p>
+        <h2><span class="day-title">Day 6: Rae Lakes and Glen Pass</span><span class="day-mileage">(12.94 miles)</span></h2>
         <figure class="trip-media" id="Day 6 route">
           <img src="media/day6.png" alt="The day 6 route and elevation profile" loading="lazy">
         </figure>
@@ -821,8 +831,7 @@
       </section>
 
       <section id="day-7">
-        <h2>Day 7: Bubbs Creek to Road’s End</h2>
-        <p>12.07 miles</p>
+        <h2><span class="day-title">Day 7: Bubbs Creek to Road’s End</span><span class="day-mileage">(12.07 miles)</span></h2>
         <figure class="trip-media" id="Day 7 route">
           <img src="media/day7.png" alt="The day 7 route and elevation profile" loading="lazy">
         </figure>
