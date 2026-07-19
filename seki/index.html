@@ -73,8 +73,15 @@
       margin-bottom: 0.65rem;
     }
 
+    .trip-media,
     .media-placeholder {
       margin: 1.25rem 0 2.25rem;
+    }
+
+    .trip-media img {
+      display: block;
+      width: 100%;
+      height: auto;
     }
 
     .media-placeholder__box {
@@ -106,6 +113,7 @@
       overflow-wrap: anywhere;
     }
 
+    .trip-media figcaption,
     .media-placeholder figcaption {
       margin-top: 0.5rem;
       font-size: 0.9rem;
@@ -138,22 +146,9 @@
           <p class="post-subtitle">A seven-day trip through King's Canyon National Park</p>
         </header>
 
-        <!--
-          MEDIA REPLACEMENT EXAMPLES
+        <!-- Replace each remaining VIDEO PLACEHOLDER after uploading its MP4 file. -->
 
-          Replace an IMAGE PLACEHOLDER's .media-placeholder__box with:
-
-          <img src="media/example.jpg" alt="A concise visual description" loading="lazy">
-
-          Replace a VIDEO PLACEHOLDER's .media-placeholder__box with:
-
-          <video controls playsinline preload="metadata">
-            <source src="media/example.mp4" type="video/mp4">
-            Your browser does not support embedded video.
-          </video>
-        -->
-
-        <nav class="toc" aria-label="Contents">
+<nav class="toc" aria-label="Contents">
           <h2>Contents</h2>
           <ol>
             <li><a href="#preparation">Preparation</a></li>
@@ -176,11 +171,8 @@
         <p>After a week of frenzied and repeated trips to REI and Trader Joe's to acquire ~40,000 calories of meat sticks, tortillas, dried fruit, and dehydrated dinners (as well as some new gear), we settled somewhat last-minute on a final itinerary. This was dictated largely by the fact that a week’s worth of food was as much as we could fit in our bear cans, and also about the maximum amount of time Jer could spend away from his experiment.</p>
         <p>The final decision was to do a clockwise rotation of the northern half of the “Big SEKI loop” – entering Copper Creek, traveling the JMT SOBO, and exiting along Bubb's Creek – amounting to about 80-85 miles, and hopefully exactly one week.</p>
 
-        <figure class="media-placeholder" id="media-route-map">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: Route map: clockwise from Road’s End via Copper Creek, the JMT, and Bubbs Creek.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/route-map.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-route-map">
+          <img src="media/route-map.jpg" alt="Route map: clockwise from Road’s End via Copper Creek, the JMT, and Bubbs Creek." loading="lazy">
           <figcaption>Route map: clockwise from Road’s End via Copper Creek, the JMT, and Bubbs Creek.</figcaption>
         </figure>
         <p class="back-to-top"><a href="#top">Back to top</a></p>
@@ -192,21 +184,15 @@
         <p>We figured it would be best to have a last meal in civilization before truly entering the wilderness. Thankfully, there turns out to be a local cabin-type facility on the edge of King’s Canyon – “Cyndi’s Snowline Lodge” – which seems to sell coffee and tri-tip sandwiches to passersby as the mood strikes. It wasn’t on Google maps; instead Cyndi relied purely on large signs that declared simply “FOOD.” Very effective. She got us. We sat out front and threw down a few tri-tips while sitting on the front porch. We then had our final bathroom break in civilization, and received a prayer on our way out – Cyndi seemed to make sure to say a prayer with every customer who came through. It was very wholesome. She asked that angels be sent before us, to guide us on our way, and Jer thought, indeed, we will probably need that.</p>
         <p>As the name suggests, King’s canyon is filled with enormous canyons, fit for kings. The drive to the literally-named Road’s End traverses a large ridge and features stunning canyon views to rival Zion. We went to the ranger station where we stated our intended route and received our backcountry permit. We changed, laced up our shoes, and hit the trail around 2:30pm. Day 0 began properly.</p>
 
-        <figure class="media-placeholder" id="media-roads-end-canyon">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: The drive into Kings Canyon and Road’s End.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/roads-end-canyon.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-roads-end-canyon">
+          <img src="media/roads-end-canyon.jpg" alt="The drive into Kings Canyon and Road’s End." loading="lazy">
           <figcaption>The drive into Kings Canyon and Road’s End.</figcaption>
         </figure>
         <p>The Copper Creek trail was a steep climb out of the Road's End valley. The switchbacks start right away and don't let up for a while: the trail rises from 5,000 to ~10,000 ft over the course of 8 or so miles. If you turn your head while climbing, you find yourself facing the Bubbs Creek valley and its guardians, the Palmer, Farquhar, and North Guard peaks. The advantage of doing a half-day to start was that we could tackle just 4 miles (and ~2000 ft of elevation gain) and adjust to elevation overnight before taking on the second half. We also enjoyed some cloud cover (for the last time on this trip.)</p>
         <p>Along the way, we entered a wood in which we noticed some strange, rather satanic looking growths on the forest floor (the Devil’s anal beads, as we were to later christen them on more delirious days). These turned out to be blood-red parasitic “Snow plants” endemic to the Sierras region.</p>
 
-        <figure class="media-placeholder" id="media-snow-plants">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: Snow plants along the Copper Creek trail.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/snow-plants.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-snow-plants">
+          <img src="media/snow-plants.jpg" alt="Snow plants along the Copper Creek trail." loading="lazy">
           <figcaption>Snow plants along the Copper Creek trail.</figcaption>
         </figure>
         <p>We finally arrived at Lower Tent Meadow, gasping for breath. We encountered some folks who had made it up to Granite Pass but turned back because of altitude sickness. These would be the only people we would see until the JMT junction. We made camp and cooked dinner, our traditional first-night ramen. Elaine initially had trouble with the lighter, and although Jer had no problem with it, this portended trouble ahead…</p>
@@ -229,67 +215,46 @@
         <p>The following morning we ate our oatmeal, packed up our tent at a leisurely place, and continued to climb. The morning hikes are always the best part of the day. Bodies are well-rested and fresh, the air is cool, and the light is teeming with latent magic. The switchbacks remained unrelenting, however, and the thinning air made the going hard. On the way up we encountered a number of adorably round and feathery sooty grouse, some of which were quite large and gave us as much of a scare as we gave them.</p>
         <p>After what felt like a whole day in and of itself, we reached the top of the ridge (“the Lip”) around 11AM, over which we could peer down into the Granite pass basin, our next destination, as well as the tall peaks and puffy clouds in the distance.</p>
 
-        <figure class="media-placeholder" id="media-the-lip-view">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: The view into Granite Basin from “the Lip.”">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/the-lip-view.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-the-lip-view">
+          <img src="media/the-lip-view.jpg" alt="The view into Granite Basin from “the Lip.”" loading="lazy">
           <figcaption>The view into Granite Basin from “the Lip.”</figcaption>
         </figure>
         <p class="media-lead">For reference, we had parked our car at ~5000 feet the day before.</p>
 
-        <figure class="media-placeholder" id="media-elevation-reference">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: A visual reference for the climb from Road’s End to the Lip.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/elevation-reference.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-elevation-reference">
+          <img src="media/elevation-reference.jpg" alt="A visual reference for the climb from Road’s End to the Lip." loading="lazy">
           <figcaption>A visual reference for the climb from Road’s End to the Lip.</figcaption>
         </figure>
         <p>We took a break at the top to eat some snacks and take in the views, before starting a mild descent into the basin, and towards Granite Pass – the first (and by far the easiest) mountain pass of our trek.</p>
         <p class="media-lead">It can often feel as though the trail is taunting you. Consider this rather Sysiphean rock formation, for example:</p>
 
-        <figure class="media-placeholder" id="media-sisyphus-rock">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: The trail’s rather Sisyphean rock formation.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/sisyphus-rock.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-sisyphus-rock">
+          <img src="media/sisyphus-rock.jpg" alt="The trail’s rather Sisyphean rock formation." loading="lazy">
           <figcaption>The trail’s rather Sisyphean rock formation.</figcaption>
         </figure>
         <p>Indeed, if there is any theme of any Sierras trek, it’s that each day will bring a new challenge: Usually, a pass to climb or to descend. It’s often unclear what’s harder, and if there is a flat trail section, it may well be a mosquito warzone. Alas, how brutally accurate a metaphor for life.</p>
         <p class="media-lead">Reaching the top of the pass, we were weary from the day’s climbs, and pondering our life choices.</p>
 
-        <figure class="media-placeholder" id="media-granite-pass-jer">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: At Granite Pass, pondering our life choices.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/granite-pass-jer.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-granite-pass-jer">
+          <img src="media/granite-pass-jer.jpg" alt="At Granite Pass, pondering our life choices." loading="lazy">
           <figcaption>At Granite Pass, pondering our life choices.</figcaption>
         </figure>
         <p class="media-lead">Elaine was apparently in better spirits, though perhaps a bit disoriented from the climb:</p>
 
-        <figure class="media-placeholder" id="media-granite-pass-elaine">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: At Granite Pass, in marginally better spirits.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/granite-pass-elaine.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-granite-pass-elaine">
+          <img src="media/granite-pass-elaine.jpg" alt="At Granite Pass, in marginally better spirits." loading="lazy">
           <figcaption>At Granite Pass, in marginally better spirits.</figcaption>
         </figure>
         <p class="media-lead">In any case, nothing a little chef’s special can’t fix (served on a priceless granite countertop as well!)</p>
 
-        <figure class="media-placeholder" id="media-granite-countertop-lunch">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: The chef’s special on a granite countertop.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/granite-countertop-lunch.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-granite-countertop-lunch">
+          <img src="media/granite-countertop-lunch.jpg" alt="The chef’s special on a granite countertop." loading="lazy">
           <figcaption>The chef’s special: (a couple meat sticks, doused in barbeque sauce and wrapped in a tortilla, perhaps with some dried fruit for flavor.</figcaption>
         </figure>
         <p>The rest of the day passed more or less in a dream. The basin was picturesque with lots of flowers, high alpine meadows, and grassy marshes. In fact the water which we filtered from one of those streams tasted distinctly and beguilingly like flower petals. We ended the day in the lower basin, in good spirits, and set up camp near an area known as Shorty’s meadow.</p>
 
-        <figure class="media-placeholder" id="media-shortys-meadow">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: High meadows and camp near Shorty’s Meadow.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/shortys-meadow.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-shortys-meadow">
+          <img src="media/shortys-meadow.jpg" alt="High meadows and camp near Shorty’s Meadow." loading="lazy">
           <figcaption>High meadows and camp near Shorty’s Meadow.</figcaption>
         </figure>
         <p>After spending nearly 12 hours on your feet, the prospect of a warm meal carries great weight. Imagine our despair, then, when we discovered our lighter no longer produced a flame! Uh-oh, uh-oh, uh-oh! Jer spent some time trying to macgyver the lighter into the submission and then trying to remember “how the primitive technology guy on YouTube makes fire by rolling sticks.” All of this was to no avail. Our spirits were crushed, as were our prospects of a hot dinner that night. We sent some panicked texts to Jer's family on the Zoleo and thought despondently about the logistics about hiking back.</p>
@@ -302,31 +267,22 @@
         <p>In the morning we cold-soaked some oatmeal and forced it down, and went on to tackle the day. The beginning of the day started much like before, with wanderings through lush meadows and sparse pine forests and only mild hills and ridges. The only downside was a steady mosquito presence haranguing us, which became particularly unbearable in a valley wherein the mosquitoes lay in wait in the tall reeds and grass surrounding the still waters at the bottom of the shallow valley.</p>
         <p>The relentless of the mosquitoes caused us to speed past this final water source without filtering additional water beyond the scant liter-or-so we were carrying. Before we knew it, we found ourselves atop a dry and sandy hill sitting itself atop a much larger mountainside than we could have ever imagined. Here ended the Copper Creek trail, and started the trail labeled on some USGS maps as ‘The Bitch’.</p>
 
-        <figure class="media-placeholder" id="media-top-of-the-bitch">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: At the top of the descent toward Simpson Meadow.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/top-of-the-bitch.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-top-of-the-bitch">
+          <img src="media/top-of-the-bitch.jpg" alt="At the top of the descent toward Simpson Meadow." loading="lazy">
           <figcaption>At the top of the descent toward Simpson Meadow.</figcaption>
         </figure>
         <p>This is a 5-mile section that drops some 3,600 feet, and none too kindly: This thing is endless, ungraded and unmaintained, and clearly has just become a water runoff channel (which means plenty of loose rocks underfoot). Your feet are awkwardly being stuffed between rocks at a vertiginously steep grade (oh, the thought of proper switchbacks) — and you’re lucky if you can even see where you’re walking! the bottom seems to get further away with every step, and meanwhile the trail just keeps trying to kill you. If the vertigo at the top didn’t do it, try the sun exposure, or the thick covering of oak leaves and rubble, the washouts, the rising temperature that accompanies the plummeting elevation, and on and on. Finally, when you just can't take it anymore, and you’re absolutely sure you’re near the bottom, you begin to hear what seems to be a river — which remains stubbornly out of sight.</p>
         <p class="media-lead">Elaine is on the trail in this photo. Pretty obvious where she and the trail are, isn’t it?</p>
 
-        <figure class="media-placeholder" id="media-the-bitch-trail">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: Elaine somewhere on the trail.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/the-bitch-trail.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-the-bitch-trail">
+          <img src="media/the-bitch-trail.jpg" alt="Elaine somewhere on the trail." loading="lazy">
           <figcaption>Elaine somewhere on the trail.</figcaption>
         </figure>
         <p>Combine all of this with our low-to-begin-with water reserves, and you can see how this was to make for the perfect afternoon of casual hiking into an area we would later be told by a local ranger was “the place where we have by far the most unresolved missing person cases in the park.”</p>
         <p>Nonetheless, after many long hours of fear, anger, and tears, we made it to the bottom: Simpson Meadow.</p>
 
-        <figure class="media-placeholder" id="media-simpson-meadow">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: Arrival at Simpson Meadow.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/simpson-meadow.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-simpson-meadow">
+          <img src="media/simpson-meadow.jpg" alt="Arrival at Simpson Meadow." loading="lazy">
           <figcaption>Arrival at Simpson Meadow.</figcaption>
         </figure>
         <p>At this point Elaine was convinced she was on the brink of serious dehydration. As we finally spilled out onto the hot and dry meadow she collapsed under a tree, and sent Jer to go investigate the (hidden) river to hopefully find some of that illusory water. He threw off his pack, wandered off into the woods and climbed a few walls of rock to get to the river running nearby – but boy did that <i>aqua vitae</i> taste glorious.</p>
@@ -341,11 +297,8 @@
         <p>First, however, we had to hike to the end of Simpson Meadow, which turned out to be trickier than expected. Despite the allegedly flat elevation profile, the plethora of downed trees and thick vegetation meant that you could go hardly 30 seconds before running into some new obstacle. After an hour or so of bushwhacking, the trail led through a hot and exposed sagebrush area. The path was faint here, and we relied heavily on footprints to guide us. We took this part quickly, wanting to get out of the sun and knowing that bigger challenges lay ahead.</p>
         <p>We began the climb up to “Devil’s Washbowl” with grim determination, and were very happy indeed to run into the Cartridge Creek bridge in the mid-morning (where we saw an incredibly fluorescent Western Tanager.) There is something very reassuring, even moving, about discovering a bridge in the backcountry, especially when you’re so alone. It feels like an intertemporal act of care: Some years ago, someone decided that it was worth the money and effort to make sure you could get across this waterway safely. While one of the wooden railings wasn't doing so well, the stone base was very sturdy and the bridge was standing strong.</p>
 
-        <figure class="media-placeholder" id="media-cartridge-creek-bridge">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: The Cartridge Creek bridge.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/cartridge-creek-bridge.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-cartridge-creek-bridge">
+          <img src="media/cartridge-creek-bridge.jpg" alt="The Cartridge Creek bridge." loading="lazy">
           <figcaption>The Cartridge Creek bridge.</figcaption>
         </figure>
         <p>Unfortunately it seemed like the money or effort must have dried up, because as soon as we passed the bridge and a mysteriously nice-looking campsite (fit with granite benches), the trail promptly disappeared. At this point we were solidly in the woods, and despite Jer's near-mythological wayfinding abilities and our three maps (one paper and two digital), we could not find the trail, and bushwhacked back and forth desperately trying to scrutinize the forest floor for something resembling a footpath. This was a task akin to crawling around in a haystack looking for a needle.</p>
@@ -353,22 +306,16 @@
         <p>Soon thereafter the woods receded to granite cliff walls and we found ourselves following the Middle Fork of the Kings River up the canyon.
         The scenery in this section was, admittedly, breathtaking. Devil's Washbowl is aptly named, as it resembles nothing so much as a titanic granite toilet bowl, with water gushing in vertical aquamarine torrents. The river flows down this canyon in steps, and at the bottom of each step the water falls into beautiful, crystal clear pools – creating “washbowls.”</p>
 
-        <figure class="media-placeholder" id="media-devils-washbowl">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: The Devil’s Washbowl and its stepped pools.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/devils-washbowl.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-devils-washbowl">
+          <img src="media/devils-washbowl.jpg" alt="The Devil’s Washbowl and its stepped pools." loading="lazy">
           <figcaption>The Devil’s Washbowl and its stepped pools.</figcaption>
         </figure>
         <p>But the Devil doesn’t want your life to be easy. While there was a trail (thankfully), it remained perilously strewn with granite debris from years of avalanches and rockslides, or otherwise wholly overgrown with young trees and prickly thorns. All this was especially scary now as the trail was now an exposed, single-foot-wide ledge along the cliff-like river walls.</p>
         <p>(The Devil is not unfamiliar with the Sierras, he also happens to have ownership of a <a href="https://www.nps.gov/depo/index.htm">nice pile of sticks</a> on the northern part of the JMT, in addition to the aforementioned anal beads.)</p>
         <p>We climbed up… and up…</p>
 
-        <figure class="media-placeholder" id="media-middle-fork-climb">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: Climbing above the Middle Fork Kings River.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/middle-fork-climb.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-middle-fork-climb">
+          <img src="media/middle-fork-climb.jpg" alt="Climbing above the Middle Fork Kings River." loading="lazy">
           <figcaption>Climbing above the Middle Fork Kings River.</figcaption>
         </figure>
         <p>… until the climb finally tapered off and we found ourselves reentering the woods – at a much higher elevation than where we started. Here, the Palisade Creek combines with the Middle Fork Kings River (which we had been hiking parallel to all day). Gloriously, our paths would merge onto the well-traveled JMT/PCT, with its miles of glorious, clean, well-graded, and clean-marked trail.</p>
@@ -376,11 +323,8 @@
           so we followed the creek off trail, bushwhacking briefly until we found a place where it seemed we could ford more easily. 
           The water still came up to thigh-level, and the current was strong, but with our poles firmly planted before each step we made our way through, and came running to the John Muir Trail junction like children to presents under a Christmas tree.</p>
 
-        <figure class="media-placeholder" id="media-palisade-creek-ford">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: The Palisade Creek ford near the JMT junction.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/palisade-creek-ford.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-palisade-creek-ford">
+          <img src="media/palisade-creek-ford.jpg" alt="The Palisade Creek ford near the JMT junction." loading="lazy">
           <figcaption>The Palisade Creek ford near the JMT junction.</figcaption>
         </figure>
         <p>Never had we felt so much appreciation for a well-maintained and well-traveled trail as after those two days of wayfinding our way through more remote wilderness rarely visited (let alone maintained by) park rangers.</p>
@@ -398,76 +342,52 @@
         <p>Our goal for the day was the 12,200-foot Mather Pass, whose northern basin hosts the Palisade Lakes, which feed the Palisade Creek we forded the day before, and ultimately the Middle Fork of the Kings River. Despite knowing we'd have to gain some 3,600 feet that day (on the heels of the 2,500 foot Middle Fork climb yesterday) the pleasant nature of the trail and the joy of seeing other humans at last kept our energy high.</p>
         <p>We pushed up the Golden Staircase – an awesome set of granite stairs passing by gushing waterfalls – with steady efforts, pausing briefly to chit-chat with the waves of NOBO hikers and picking up some forgotten Blistex on the trail. While most of the climb felt easy-breezy compared to the previous day, the top was slightly annoying, with a longer distance to travel to the Palisade Lakes than anticipated.</p>
 
-        <figure class="media-placeholder" id="media-golden-staircase">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: Climbing the Golden Staircase.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/golden-staircase.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-golden-staircase">
+          <img src="media/golden-staircase.jpg" alt="Climbing the Golden Staircase." loading="lazy">
           <figcaption>Climbing the Golden Staircase.</figcaption>
         </figure>
         <p>Once we arrived at the high basin, however, we were in for a treat. The whole area was a marmot paradise, with the furry little buddies scurrying, relaxing, investigating, and otherwise seeming to live a joyous and edenic existence. We took refuge in one of the many stone slabs dotting the basin and enjoyed the sight of the lakes and the clear mountain stream running flat over the granite.</p>
 
-        <figure class="media-placeholder" id="media-palisade-lakes-marmots">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: Palisade Lakes and their marmot residents.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/palisade-lakes-marmots.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-palisade-lakes-marmots">
+          <img src="media/palisade-lakes-marmots.jpg" alt="Palisade Lakes and their marmot residents." loading="lazy">
           <figcaption>Palisade Lakes and their marmot residents.</figcaption>
         </figure>
         <p>Past the basin, you feel like you’re about to leave the earth altogether, and pass straight into deep space.</p>
 
-        <figure class="media-placeholder" id="media-mather-approach">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: The high, increasingly lunar approach to Mather Pass.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/mather-approach.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-mather-approach">
+          <img src="media/mather-approach.jpg" alt="The high, increasingly lunar approach to Mather Pass." loading="lazy">
           <figcaption>The high, increasingly lunar approach to Mather Pass.</figcaption>
         </figure>
         <p>The landscape starts to become lunar, the air thins, the temperature drops, and perceptions of sizes and distances become distorted in strange and unexpected ways. Everything looks simultaneously close and very far away.</p>
 
-        <figure class="media-placeholder" id="media-mather-lunar-landscape">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: The lunar landscape below Mather Pass.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/mather-lunar-landscape.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-mather-lunar-landscape">
+          <img src="media/mather-lunar-landscape.jpg" alt="The lunar landscape below Mather Pass." loading="lazy">
           <figcaption>The lunar landscape below Mather Pass.</figcaption>
         </figure>
         <p>This effect, combined with the knowledge of the nearing pass, causes oscillations between feeling as though the top is just a few steps away, and feeling like it’s a few more miles away. After every switchback, there is always another. Instead of getting any close, the rocks just get larger.</p>
 
-        <figure class="media-placeholder" id="media-mather-switchbacks">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: The final switchbacks toward Mather Pass.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/mather-switchbacks.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-mather-switchbacks">
+          <img src="media/mather-switchbacks.jpg" alt="The final switchbacks toward Mather Pass." loading="lazy">
           <figcaption>The final switchbacks toward Mather Pass.</figcaption>
         </figure>
         <p>Nevertheless, with persistence and suspension of thought process, one ultimately comes out on top. The rocky and strenuous final part of the climb was enough to make Elaine decide she did not want to hang around at the top very long, so she started down the other side relatively quickly.</p>
 
-        <figure class="media-placeholder" id="media-mather-pass-summit">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: At the top of Mather Pass.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/mather-pass-summit.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-mather-pass-summit">
+          <img src="media/mather-pass-summit.jpg" alt="At the top of Mather Pass." loading="lazy">
           <figcaption>At the top of Mather Pass.</figcaption>
         </figure>
         <p>It’s often true that these mountain passes are significantly easier to climb going one direction instead of the other. In this case, going SOBO (our direction) was much tougher than NOBO, where you’re coming from a very high-elevation basin, making for a shorter climb.</p>
         <p>We descended quickly into this basin and took a break by the first lake we came to, just below the pass (pictured right behind me in this photo):</p>
 
-        <figure class="media-placeholder" id="media-mather-south-basin">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: The first lake below Mather Pass.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/mather-south-basin.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-mather-south-basin">
+          <img src="media/mather-south-basin.jpg" alt="The first lake below Mather Pass." loading="lazy">
           <figcaption>The first lake below Mather Pass.</figcaption>
         </figure>
         <p>We went a little farther past this point, to get out of the more exposed area near the pass and set up camp above the tree line, with beautiful views of the basin and the valley below.
         This was our highest elevation campsite, with a slow flowing creek over the granite nearby, and perhaps the grandest view of the Milky Way we have ever seen.</p>
 
-        <figure class="media-placeholder" id="media-high-camp-milky-way">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: Our high camp below Mather Pass.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/high-camp-milky-way.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-high-camp-milky-way">
+          <img src="media/high-camp-milky-way.jpg" alt="Our high camp below Mather Pass." loading="lazy">
           <figcaption>Our high camp below Mather Pass.</figcaption>
         </figure>
         <p class="back-to-top"><a href="#top">Back to top</a></p>
@@ -482,30 +402,21 @@
         <p>Of course, despite such mental battles, the views remained incredible throughout the climb.</p>
         <p>When we reached the very top, we were greeted by a mountain king marmot who had taken up residence at the mountain pass.</p>
 
-        <figure class="media-placeholder" id="media-king-pinchot-marmot">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: The mountain king of Pinchot Pass.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/king-pinchot-marmot.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-king-pinchot-marmot">
+          <img src="media/king-pinchot-marmot.jpg" alt="The mountain king of Pinchot Pass." loading="lazy">
           <figcaption>The mountain king of Pinchot Pass.</figcaption>
         </figure>
         <p>We also reached the top at more or less the same time that a JMT hiker was coming up the southern side, heading northbound. As he got close, he shouted out: “THAT BLOWS!”</p>
         <p>He reached the top a few minutes later and nearly collapsed on his poles next to us. As we were to learn from him, the climb up Pinchot from the opposite direction is significantly more brutal. “I swear, I was dissociating at some point; I was watching someone else hiking from inside my own body,” he told us, making zombie-like motions of putting one trekking pole in front of the other.</p>
 
-        <figure class="media-placeholder" id="media-pinchot-pass-hiker">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: A northbound hiker arriving at Pinchot Pass.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/pinchot-pass-hiker.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-pinchot-pass-hiker">
+          <img src="media/pinchot-pass-hiker.jpg" alt="A northbound hiker arriving at Pinchot Pass." loading="lazy">
           <figcaption>A northbound hiker arriving at Pinchot Pass.</figcaption>
         </figure>
         <p>All the while, King Pinchot Marmot continued to hang, probably thinking, “...yeah I remember the first time I climbed Pinchot…”</p>
 
-        <figure class="media-placeholder" id="media-king-pinchot-marmot-two">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: King Pinchot Marmot, unimpressed.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/king-pinchot-marmot-two.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-king-pinchot-marmot-two">
+          <img src="media/king-pinchot-marmot-two.jpg" alt="King Pinchot Marmot, unimpressed." loading="lazy">
           <figcaption>King Pinchot Marmot, unimpressed.</figcaption>
         </figure>
         <p>We hung out a bit longer, exchanging trail anecdotes, before we headed our separate ways.</p>
@@ -526,11 +437,8 @@
         <p>Now, another exciting bridge encounter. On the JMT, bridges often mark major trail and valley junctions, and after one has been wandering through the wilderness for days, with little sign of civilization, the finding of a bridge is a godsend and sign that (hopefully) there aren’t many miles to go before you sleep.</p>
         <p>We reached the bridge that marked the junction of the JMT with Woods Creek around sundown. It was not only right by our campground, but a remarkably well-executed suspension bridge that hikers can have a little bit too much fun with ("careful, you <i>can</i> slide on that thing..." some hikers had told us earlier that afternoon.)</p>
 
-        <figure class="media-placeholder" id="media-woods-creek-bridge">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: The Woods Creek suspension bridge at sunset.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/woods-creek-bridge.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-woods-creek-bridge">
+          <img src="media/woods-creek-bridge.jpg" alt="The Woods Creek suspension bridge at sunset." loading="lazy">
           <figcaption>The Woods Creek suspension bridge at sunset.</figcaption>
         </figure>
         <p>As a suspension bridge, it twists and turns and bounces as you walk over it, which Elaine was terrified by (“a frankly terrifying contraption which is little more than some steel cables surrounding a gangplank 50 feet above a roaring river”) while Jer spent ample time indulging in the excitation of all of its rich eigenmode structure during his own turn.</p>
@@ -558,29 +466,20 @@
         By that point we were used to the routine of climbing. We took the trail at our normal pace, leapfrogging with Hallie and Jonathan all morning. We also passed a number of hikers coming down, some with fishing gear, and others looking somewhat overwhelmed. A popular shorter loop can be made out of Road’s End (where we initially started) that allows people to get to Rae Lakes in a 2-night trip, bringing many to enjoy nature in somewhat more bite-sized chunks.</p>
         <p class="media-lead">First we came up to Dollar Lake.</p>
 
-        <figure class="media-placeholder" id="media-dollar-lake">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: Dollar Lake.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/dollar-lake.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-dollar-lake">
+          <img src="media/dollar-lake.jpg" alt="Dollar Lake." loading="lazy">
           <figcaption>Dollar Lake.</figcaption>
         </figure>
         <p class="media-lead">Followed by Arrowhead:</p>
 
-        <figure class="media-placeholder" id="media-arrowhead-lake">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: Arrowhead Lake.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/arrowhead-lake.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-arrowhead-lake">
+          <img src="media/arrowhead-lake.jpg" alt="Arrowhead Lake." loading="lazy">
           <figcaption>Arrowhead Lake.</figcaption>
         </figure>
         <p>And then we made it to the main Rae Lakes area. As we stopped by the first lake, we encountered an adorable quartet of baby marmots who kept us very entertained.</p>
 
-        <figure class="media-placeholder" id="media-rae-lakes-baby-marmots">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: Rae Lakes and four baby marmots.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/rae-lakes-baby-marmots.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-rae-lakes-baby-marmots">
+          <img src="media/rae-lakes-baby-marmots.jpg" alt="Rae Lakes and four baby marmots." loading="lazy">
           <figcaption>Rae Lakes and four baby marmots.</figcaption>
         </figure>
         <p>While Elaine hiked ahead, Jer stayed behind for a longer break. At this point we had noted our different hiking styles (Elaine hikes slow and takes short breaks, Jer hikes fast and takes long breaks) and had adjusted our team strategy to match, with Elaine often going ahead initially and Jer catching up after a longer rest.</p>
@@ -592,11 +491,8 @@
         
         <p> Before leaving the haven of the lakes to climb our last pass, we took a long lunch break at the lakeshore. We stripped down, took a dip to wash and cool off, and nibbled a very relaxed lunch of increasingly stale tortillas and dried fruit under the fast-moving cirrus clouds.</p>
 
-        <figure class="media-placeholder" id="media-rae-lakes-lunch">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: A long lunch and swim at Rae Lakes.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/rae-lakes-lunch.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-rae-lakes-lunch">
+          <img src="media/rae-lakes-lunch.jpg" alt="A long lunch and swim at Rae Lakes." loading="lazy">
           <figcaption>A long lunch and swim at Rae Lakes.</figcaption>
         </figure>
         <p>After our extended rest, we collected ourselves and headed up to Glen Pass. As it turned out, this last mountain pass would be one of the steepest and most grueling. Although (marginally) lower than our previous two passes, the final approach is extremely steep and rocky.</p>
@@ -606,29 +502,20 @@
         <p>“Right on!”</p>
         <p>His buddy, however, seemed less spirited. Indeed, as we encountered more folks coming down from the pass, it became apparent that we were approaching something of a monster.</p>
 
-        <figure class="media-placeholder" id="media-glen-pass-from-below">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: The climb toward Glen Pass.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/glen-pass-from-below.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-glen-pass-from-below">
+          <img src="media/glen-pass-from-below.jpg" alt="The climb toward Glen Pass." loading="lazy">
           <figcaption>The climb toward Glen Pass.</figcaption>
         </figure>
         <p>We climbed higher and higher, until we reached an unexpected second basin, devoid of trail, with the last lingering snow melt lakes of the summer.</p>
 
-        <figure class="media-placeholder" id="media-glen-pass-upper-basin">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: The upper basin below Glen Pass.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/glen-pass-upper-basin.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-glen-pass-upper-basin">
+          <img src="media/glen-pass-upper-basin.jpg" alt="The upper basin below Glen Pass." loading="lazy">
           <figcaption>The upper basin below Glen Pass.</figcaption>
         </figure>
         <p>As we went higher still, the entire mountain seemed to turn into one enormous pile of huge boulders, like walking over a solidified lava field.</p>
 
-        <figure class="media-placeholder" id="media-glen-pass-boulders">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: The boulder field on the approach to Glen Pass.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/glen-pass-boulders.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-glen-pass-boulders">
+          <img src="media/glen-pass-boulders.jpg" alt="The boulder field on the approach to Glen Pass." loading="lazy">
           <figcaption>The boulder field on the approach to Glen Pass.</figcaption>
         </figure>
 
@@ -641,20 +528,14 @@
         </figure>
         <p>The air was thin and the climb was extremely steep and technical. We took it slow and steady and finally reached the top, where we waved to Jonathan and Hallie, who had outpaced us and were a fair ways down the trail. We shouted barely-audible words of encouragement back and forth and they continued on. </p>
 
-        <figure class="media-placeholder" id="media-glen-pass-summit">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: Reaching the top of Glen Pass.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/glen-pass-summit.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-glen-pass-summit">
+          <img src="media/glen-pass-summit.jpg" alt="Reaching the top of Glen Pass." loading="lazy">
           <figcaption>Reaching the top of Glen Pass.</figcaption>
         </figure>
         <p>The top turned out to be an extremely narrow ridge, with a sheer drop on either side. Elaine was unamused by this, and so started down the other side right away. Jer however took a break for a while and hung out on the top, where he felt a strange kinship with the jagged peaks on either side.</p>
 
-        <figure class="media-placeholder" id="media-glen-pass-ridge">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: The narrow ridge at the top of Glen Pass.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/glen-pass-ridge.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-glen-pass-ridge">
+          <img src="media/glen-pass-ridge.jpg" alt="The narrow ridge at the top of Glen Pass." loading="lazy">
           <figcaption>The narrow ridge at the top of Glen Pass.</figcaption>
         </figure>
         <p>As Jer sat alone atop the pass and Elaine was not far below, two fighter jets – ostensibly from the Naval Air Weapons Station China Lake nearby – came roaring right overhead. The booms of their engines echoing around the granite basins below me was awesome, and a fearsome reminder of the ubiquity of human engineering and intervention.</p>
@@ -678,11 +559,8 @@
           We were conserving water and getting quite thirsty, which did not put us in a good mood. </p>
         <p>As the trial junctions became more frequent, we saw a funny bear warning sign posted on one:</p>
 
-        <figure class="media-placeholder" id="media-bear-warning-sign">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: A bear warning sign near the trail junctions.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/bear-warning-sign.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-bear-warning-sign">
+          <img src="media/bear-warning-sign.jpg" alt="A bear warning sign near the trail junctions." loading="lazy">
           <figcaption>A bear warning sign near the trail junctions.</figcaption>
         </figure>
         <p>We took a snack break near the junction marker before starting down the final descent of the day. We passed by the junction to Kearsarge Pass, a popular entry/exit and resupply point on the JMT, and passed by many more hikers.
@@ -702,29 +580,20 @@
         <p>On the other hand, the views didn’t let up. Most of the time you follow Bubbs Creek down as it leads you from the high alpine ecosystems to humid redwoods-like fern groves and sandy, sage-strewn washes…</p>
         <p class="media-lead">Passing by waterfalls…</p>
 
-        <figure class="media-placeholder" id="media-bubbs-creek-waterfall">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: Waterfalls along Bubbs Creek.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/bubbs-creek-waterfall.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-bubbs-creek-waterfall">
+          <img src="media/bubbs-creek-waterfall.jpg" alt="Waterfalls along Bubbs Creek." loading="lazy">
           <figcaption>Waterfalls along Bubbs Creek.</figcaption>
         </figure>
         <p class="media-lead">And through meadows covered in wildflowers…</p>
 
-        <figure class="media-placeholder" id="media-bubbs-creek-wildflowers">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: Wildflower meadows along Bubbs Creek.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/bubbs-creek-wildflowers.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-bubbs-creek-wildflowers">
+          <img src="media/bubbs-creek-wildflowers.jpg" alt="Wildflower meadows along Bubbs Creek." loading="lazy">
           <figcaption>Wildflower meadows along Bubbs Creek.</figcaption>
         </figure>
         <p class="media-lead">Before finally reaching the bottom, where, of course, there is a great bridge, to mark your destination!</p>
 
-        <figure class="media-placeholder" id="media-bailey-bridge">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: The bridge marking the bottom of the descent.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/bailey-bridge.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-bailey-bridge">
+          <img src="media/bailey-bridge.jpg" alt="The bridge marking the bottom of the descent." loading="lazy">
           <figcaption>The bridge marking the bottom of the descent.</figcaption>
         </figure>
         <p>Even once we reached the bottom, there was still another two-mile walk to get back to the ranger station and parking lot. 
@@ -737,11 +606,8 @@
         <p>We traded stories with a few others before retreating to our car and bumbling our way out of the park, stopping in multiple places looking for a sink with soap to wash our hands and face, before driving down the mountain and back to Fresno, where we stayed for the night after stuffing ourselves full of a Mexican feast.</p>
        
 
-        <figure class="media-placeholder" id="media-post-hike-feast">
-          <div class="media-placeholder__box" role="img" aria-label="Image Placeholder: The post-hike feast in Fresno.">
-            <span>IMAGE PLACEHOLDER</span>
-            <code>media/post-hike-feast.jpg</code>
-          </div>
+        <figure class="trip-media" id="media-post-hike-feast">
+          <img src="media/post-hike-feast.jpg" alt="The post-hike feast in Fresno." loading="lazy">
           <figcaption>The post-hike feast in Fresno.</figcaption>
         </figure>
         <p>Glorious.</p>
