@@ -257,6 +257,13 @@ li {
   }
 }
 
+.youtube-video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  display: block;
+  border: 0;
+}
+
 .youtube-short {
   width: min(100%, 360px);
   aspect-ratio: 9 / 16;
