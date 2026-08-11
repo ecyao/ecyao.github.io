@@ -210,7 +210,7 @@ li {
 
 .toc {
   margin: 2rem 0 3rem;
-  padding: 1rem 1.25rem;
+  padding: 1rem 1.05rem;
   border: 1px solid #ddd;
 }
 
@@ -226,7 +226,7 @@ li {
 }
 
 .toc li {
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.15rem;
   break-inside: avoid;
 }
 
